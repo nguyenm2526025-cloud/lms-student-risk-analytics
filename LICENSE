@@ -1,21 +1,14 @@
-MIT License
+### Tệp 5: `LICENSE`
+Bạn chọn **MIT License** khi tạo repository trên GitHub (hoặc dán nội dung MIT License chuẩn với tên `2026 Pham Trong Nguyen`).
 
-Copyright (c) 2026 nguyenm2526025-cloud
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 3. Cách chạy thử & Nộp bài cực nhanh
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. **Chạy trên máy cá nhân (VS Code / Terminal):**
+   * Tạo thư mục dự án, lưu các tệp trên đúng cấu trúc.
+   * Mở Terminal chạy: `pip install -r requirements.txt` rồi chạy `streamlit run app.py`.
+   * Trình duyệt sẽ tự mở giao diện Dashboard tại `http://localhost:8501`. Bạn thử đổi biến ở thanh bên trái, chụp ảnh màn hình Dashboard và bấm nút **Tải xuống Báo cáo Khoa học (.PDF)** để lưu vào thư mục `results/`[cite: 7].
+2. **Đưa lên GitHub & Triển khai Online miễn phí (Điểm cộng lớn):**
+   * Đẩy toàn bộ thư mục lên repository GitHub của nhóm.
+   * Truy cập [share.streamlit.io](https://share.streamlit.io), đăng nhập bằng tài khoản GitHub, chọn repo `lms-student-risk-analytics` và tệp `app.py` $\rightarrow$ bấm **Deploy**. Bạn sẽ có ngay một đường link web trực tuyến để dán vào báo cáo nộp cho giảng viên!
